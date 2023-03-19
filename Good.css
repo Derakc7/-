@@ -1,0 +1,36 @@
+.main{
+    background-color: #FDD9B5;
+    margin: 0px;
+    height: 100%;
+}
+.header1{
+    width: 100%;
+    height: 20vh;
+    background-color: aqua; 
+}
+.Logo{
+    margin: 0px;
+    height: 20vh;
+    width: 500px;
+}
+.Name{
+    
+    margin:0px;
+    font-size: 30px;
+    font-size: 135px;
+}
+
+@media (max-height: 300px) {
+    .Logo {
+        width: 50px;
+    }
+    .Name {
+        font-size: 10px;
+    }
+}
+@media (max-height: 700px){
+    .Name{
+        font-size: 30px;
+    }
+}
+
