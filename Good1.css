@@ -1,0 +1,105 @@
+.men{
+    background-color: #DCEDC2;
+    margin: 0px;
+}
+.header1{
+    width: 100%;
+    height: 120px;
+    background-color: #FFAAA6; 
+    
+}
+main{
+    margin:0px;
+    width: 100%;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+}
+
+.Logo{
+    margin: 0px;
+    height: 100px;
+    width: 300px;
+}
+.Name{
+    color: white;
+    padding: 0%;
+    margin:0%;
+    top: 0px;
+    font-size: 87px;
+    width: 300px;
+}
+.Other{
+position: absolute;
+width: 65px;
+height: 65px;
+right: 0px;
+top: 7.5px;
+margin: 10px;
+background: #FF8C94;
+border-radius: 100px;
+border: none;
+
+
+
+transition: 1s ease-out;
+transition-delay: 4s;
+}
+
+.Other p{
+transform: translateY(-200%);
+
+}
+.a{
+position: absolute;
+width: 65px;
+height: 65px;
+right: -9.6px;
+top: -9px;
+margin: 10px;
+background: #FF8C94;
+border-radius: 100px;
+border: none;
+font-size: 30px;
+background-color:#FF8C94;
+font-size: 20px;
+transform: translateY(-300%);
+transition: all 1s ease-out;
+
+}
+.b{
+    position: absolute;
+width: 65px;
+height: 65px;
+right: -9.6px;
+top: -9px;
+margin: 10px;
+background: #FF8C94;
+border-radius: 100px;
+border: none;
+font-size: 30px;
+background-color:#FF8C94;
+font-size: 20px;
+transform: translateY(-150%);
+transition: all 1s ease-out;
+
+}
+.Other:hover{
+transform: translateY(300%);
+transition: all 1s ease 0.2s;
+}
+.Pereklychatel{
+    width: 140px;
+    height: 20px;
+    background-color: coral;
+    border-color: white;
+    margin: 0px;    
+}
+.Pereklychatel1{
+    width: 140px;
+    height: 20px;
+    background-color: #FFAAA6;
+    border-color: white;
+    margin: 0px;
+}

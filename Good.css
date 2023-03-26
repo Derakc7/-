@@ -1,13 +1,83 @@
-.main{
+.men{
     background-color: #DCEDC2;
     margin: 0px;
 }
 .header1{
     width: 100%;
-    height: 100px;
+    height: 120px;
     background-color: #FFAAA6; 
     
 }
+main{
+    margin:0px;
+    width: 100%;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+}
+.Block1{
+    width: 400px;
+    height: 250px;
+    background-color: burlywood;
+    left:5%;
+    top: 20%;
+    margin: 5px;
+    background-color: gainsboro;
+    
+}
+.Block2{
+    
+    width: 400px;
+    height: 250px;
+    background-color: burlywood;
+    left: 37%;
+    top: 20%;
+    margin: 5px;
+    margin-right: 5px;
+    background-color: gainsboro;
+}
+.Block3{
+    
+    width: 400px;
+    height: 250px;
+    background-color: burlywood;
+    right: 0px;
+    top:20%;
+    margin: 5px;
+   background-color: gainsboro;
+}
+.Block4{
+    width: 400px;
+    height: 250px;
+    background-color: burlywood;
+    left:5%;
+    top: 20%;
+    margin: 5px;
+    background-color: gainsboro;
+    
+}
+.Block5{
+    width: 400px;
+    height: 250px;
+    background-color: burlywood;
+    left: 37%;
+    top: 20%;
+    margin: 5px;
+    margin-right: 5px;
+    background-color: gainsboro;
+}
+.Block6{
+    width: 400px;
+    height: 250px;
+    background-color: burlywood;
+    left:5%;
+    top: 20%;
+    margin: 5px;
+    background-color: gainsboro;
+    
+}
+
 .Logo{
     margin: 0px;
     height: 100px;
@@ -25,29 +95,19 @@
 position: absolute;
 width: 65px;
 height: 65px;
-right: 5px;
+right: 0px;
 top: 7.5px;
 margin: 10px;
 background: #FF8C94;
 border-radius: 100px;
 border: none;
-font-size: 30px;
-color: white;
-font-size: 20px;
+
+
 
 transition: 1s ease-out;
 transition-delay: 4s;
 }
-.Telefon{
-position: absolute;
-width: 65px;
-height: 65px;
-right: 5px;
-top: 7.5px;
 
-background-color: #FF8C94;
-
-}
 .Other p{
 transform: translateY(-200%);
 
@@ -63,10 +123,10 @@ background: #FF8C94;
 border-radius: 100px;
 border: none;
 font-size: 30px;
-background-color: white;
+background-color:#FF8C94;
 font-size: 20px;
 transform: translateY(-300%);
-transition: all 2s ease-out;
+transition: all 1s ease-out;
 
 }
 .b{
@@ -80,13 +140,63 @@ background: #FF8C94;
 border-radius: 100px;
 border: none;
 font-size: 30px;
-background-color: white;
+background-color:#FF8C94;
 font-size: 20px;
 transform: translateY(-150%);
-transition: all 2s ease-out;
+transition: all 1s ease-out;
 
 }
 .Other:hover{
 transform: translateY(300%);
 transition: all 1s ease 0.2s;
+}
+.Foto{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    margin: 25px;
+    margin-right: 0px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+.Korziny{
+   position: relative;
+   width: 150px;
+   height: 40px;
+   margin:0px;
+   left: 231px;
+   top: 185px;
+}
+h2{
+    position: relative;
+   width: 110px;
+   height: 40px;
+   margin: 0px;
+   left: 256px;
+    top: -15px;
+}
+p{
+    position: relative;
+   width: 130px;
+   height: 100px;
+   margin: 0px;
+   left: 243px;
+    top: -15px;
+    text-align: center;
+}
+
+.Pereklychatel{
+    width: 140px;
+    height: 20px;
+    background-color: #FFAAA6;
+    border-color: white;
+    margin: 0px;    
+}
+.Pereklychatel1{
+    width: 140px;
+    height: 20px;
+    background-color: coral;
+    border-color: white;
+    margin: 0px;
 }
