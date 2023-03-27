@@ -8,13 +8,11 @@
     background-color: #FFAAA6; 
     
 }
-main{
-    margin:0px;
+.main{
+    margin-top:0px;
+    background-color: aqua;
+    height: 200px;
     width: 100%;
-    
-    flex-wrap: wrap;
-    justify-content: space-between;
-    display: flex;
 }
 
 .Logo{
@@ -102,4 +100,16 @@ transition: all 1s ease 0.2s;
     background-color: #FFAAA6;
     border-color: white;
     margin: 0px;
+}
+
+.Zakazat{
+    position: absolute;
+    margin: 0px;
+    width: 150px;
+    height: 50px;
+    top: 260px;
+    right: 10px
+}
+h2{
+    margin: 0px
 }
