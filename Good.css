@@ -1,11 +1,11 @@
 .men{
-    background-color: #DCEDC2;
+    background-color: #071A52;
     margin: 0px;
 }
 .header1{
     width: 100%;
     height: 120px;
-    background-color: #FFAAA6; 
+    background-color: #086972; 
     
 }
 main{
@@ -26,7 +26,7 @@ main{
     left:5%;
     top: 20%;
     margin: 5px;
-    background-color: gainsboro;
+    background-color: #17B978;
     
 }
 .Block2{
@@ -38,7 +38,7 @@ main{
     top: 20%;
     margin: 5px;
     margin-right: 5px;
-    background-color: gainsboro;
+    background-color: #17B978;
 }
 .Block3{
     
@@ -48,7 +48,7 @@ main{
     right: 0px;
     top:20%;
     margin: 5px;
-   background-color: gainsboro;
+   background-color: #17B978;
 }
 .Block4{
     width: 400px;
@@ -57,7 +57,7 @@ main{
     left:5%;
     top: 20%;
     margin: 5px;
-    background-color: gainsboro;
+    background-color: #17B978;
     
 }
 .Block5{
@@ -68,7 +68,7 @@ main{
     top: 20%;
     margin: 5px;
     margin-right: 5px;
-    background-color: gainsboro;
+    background-color: #17B978;
 }
 .Block6{
     width: 400px;
@@ -77,7 +77,7 @@ main{
     left:5%;
     top: 20%;
     margin: 5px;
-    background-color: gainsboro;
+    background-color: #17B978;
     
 }
 
@@ -101,7 +101,7 @@ height: 65px;
 right: 0px;
 top: 7.5px;
 margin: 10px;
-background: #FF8C94;
+background: #0E808B;
 border-radius: 100px;
 border: none;
 
@@ -126,7 +126,7 @@ background: #FF8C94;
 border-radius: 100px;
 border: none;
 font-size: 30px;
-background-color:#FF8C94;
+background-color:#0E808B;
 font-size: 20px;
 transform: translateY(-300%);
 transition: all 1s ease-out;
@@ -139,7 +139,7 @@ height: 65px;
 right: -9.6px;
 top: -9px;
 margin: 10px;
-background: #FF8C94;
+background: #0E808B;
 border-radius: 100px;
 border: none;
 font-size: 30px;
@@ -170,14 +170,17 @@ transition: all 1s ease 0.2s;
    margin:0px;
    left: 231px;
    top: 185px;
+    background-color: #A7FF83;
+    font-family: Arial Black;
 }
 h2{
     position: relative;
    width: 110px;
    height: 40px;
    margin: 0px;
-   left: 256px;
+   left: 243px;
     top: -15px;
+    font-family: Arial Black;
 }
 p{
     position: relative;
@@ -187,25 +190,34 @@ p{
    left: 243px;
     top: -15px;
     text-align: center;
+    font-family: Arial Black;
 }
 
 .Pereklychatel{
     width: 140px;
     height: 20px;
-    background-color: #FFAAA6;
+    background-color: #086972;
     border-color: white;
-    margin: 0px;    
+    color: white;
+    margin: 0px; 
+    font-family: Arial Black;
 }
 .Pereklychatel1{
     width: 140px;
     height: 20px;
-    background-color: coral;
+    background-color: #A7FF83;
     border-color: white;
-    margin: 0px}
+    margin: 0px;
+    font-family: Arial Black;
+}
+
+
 @media(max-width:720px){
     main{
         margin-left:0%;
         margin-right:0%;
         width: 100%;
+        
+        
     }
 }
