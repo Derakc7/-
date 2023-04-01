@@ -1,20 +1,21 @@
-.men{
+.main{
     background-color: #071A52;
     margin: 0px;
 }
-.header1{
+header{
     width: 100%;
     height: 120px;
     background-color: #086972; 
     
 }
-.main{
+.main1{
     margin-top:40px;
     background-color: #17B978;
-    height: 200px;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+    padding-top: 20px;
+    
 }
 
 .Logo{
@@ -30,105 +31,73 @@
     font-size: 87px;
     width: 300px;
 }
-.Other{
-position: absolute;
-width: 65px;
-height: 65px;
-right: 0px;
-top: 7.5px;
-margin: 10px;
-background: #0E808B;
-border-radius: 100px;
-border: none;
 
-
-
-transition: 1s ease-out;
-transition-delay: 4s;
-}
-
-.Other p{
-transform: translateY(-200%);
-
-}
-.a{
-position: absolute;
-width: 65px;
-height: 65px;
-right: -9.6px;
-top: -9px;
-margin: 10px;
-background: #FF8C94;
-border-radius: 100px;
-border: none;
-font-size: 30px;
-background-color:#0E808B;
-font-size: 20px;
-transform: translateY(-300%);
-transition: all 1s ease-out;
-
-}
-.b{
-    position: absolute;
-width: 65px;
-height: 65px;
-right: -9.6px;
-top: -9px;
-margin: 10px;
-background: #FF8C94;
-border-radius: 100px;
-border: none;
-font-size: 30px;
-background-color:#0E808B;
-font-size: 20px;
-transform: translateY(-150%);
-transition: all 1s ease-out;
-
-}
-.Other:hover{
-transform: translateY(300%);
-transition: all 1s ease 0.2s;
-}
-.Pereklychatel{
+.Switch{
     width: 140px;
     height: 20px;
     background-color: #A7FF83;
     border-color: white;
     margin: 0px;
-    font-family: Arial Black;
+    
 }
-.Pereklychatel1{
+.Switch1{
     width: 140px;
     height: 20px;
     background-color: #086972;
     border-color: white;
     color: white;
     margin: 0px;
-    font-family: Arial Black;
+    
 }
+ 
 
-.Zakazat{
-    position: absolute;
-    margin: 0px;
-    width: 150px;
-    height: 50px;
-    top: 260px;
-    right: 6%;
-    background-color: #A7FF83;
-    font-family: Arial Black;
-}
 h2{
     margin: 0px;
+    margin-left: 15px;
     font-family: Arial Black;
         
         
+}
+ul{
+   
 }
 
 @media(max-width:720px){
-    .main{
-        margin-left:0%;
-        margin-right:0%;
-        width: 100%;
-        
-    }
+    .cart-container{
+        margin-left: 0%;
+        margin-right: 0%;
+  }
 }
+
+
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #17B978;
+    padding: 12.5px;
+    margin: 0.4%;
+    margin-top: 2%;
+    
+}
+
+.details {
+    display: flex;
+    align-items: flex-end;
+}
+
+.details a {
+    background: #A7FF83;
+    color: black;
+    padding: 12.5px 25.5px;
+    text-decoration: none;
+    font-family: Arial Black;
+    
+}
+
+.details a:hover {
+    background: #086972;
+    color: white;
+    transition: 0.5s;
+}
+
+
