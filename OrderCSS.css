@@ -11,7 +11,7 @@
     background-color: #17B978;
     margin-top: 0px;
     margin-bottom: 0px;
-    
+    margin: 5px;
     width: 490px;
         
 }
@@ -66,3 +66,8 @@ h2{
     transition: 0.5s;
 }
 
+@media(max-width:720px){
+    .Word{
+        width: 430px;
+    }
+}
