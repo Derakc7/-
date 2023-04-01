@@ -1,11 +1,11 @@
 .main{
-    background-color: #071A52;
+    background-color: #FBE8D3;
     margin: 0px;
 }
 header{
     width: 100%;
     height: 120px;
-    background-color: #086972; 
+    background-color: #F85F73; 
     
 }
 .main1{
@@ -35,17 +35,18 @@ header{
 .Switch{
     width: 140px;
     height: 20px;
-    background-color: #A7FF83;
+    background-color: #3F5888;
     border-color: white;
     margin: 0px;
+    color: white
     
 }
 .Switch1{
     width: 140px;
     height: 20px;
-    background-color: #086972;
+    background-color: #FBE8D3;
     border-color: white;
-    color: white;
+    color: black;
     margin: 0px;
     
 }
@@ -73,7 +74,7 @@ ul{
 .cart-container {
     display: flex;
     justify-content: space-between;
-    background-color: #17B978;
+    background-color: #C1BAC4;
     padding: 12.5px;
     margin: 0.4%;
     margin-top: 2%;
@@ -86,7 +87,7 @@ ul{
 }
 
 .details a {
-    background: #A7FF83;
+    background: #3F5888;
     color: black;
     padding: 12.5px 25.5px;
     text-decoration: none;

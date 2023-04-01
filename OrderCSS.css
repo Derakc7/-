@@ -2,13 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #071A52;
+    background-color: #FBE8D3;
     min-height: 100vh;
     margin: 0px;
 }
 .Word{
 
-    background-color: #17B978;
+    background-color: #C1BAC4;
     margin-top: 0px;
     margin-bottom: 0px;
     margin: 5px;
@@ -21,6 +21,7 @@ h1{
     margin:0%;
     font-size: 87px;
     text-align: center;
+    background-color: #F85F73;
 }
 .box{
       display: flex;
@@ -53,8 +54,8 @@ h2{
 }
 
 .details a {
-    background: #A7FF83;
-    color: black;
+    background: #3F5888;
+    color: white;
     padding: 12.5px 25.5px;
     text-decoration: none;
     font-family: Arial Black;
