@@ -23,7 +23,7 @@ main1{
     width: 400px;
     height: 250px;
     background-color: burlywood;
-    left:5%;
+    left: 5%;
     top: 20%;
     margin: 5px;
     background-color: #17B978;
@@ -155,7 +155,7 @@ p{
 
 
 @media(max-width:720px){
-    main{
+    main1{
         margin-left:0%;
         margin-right:0%;
         width: 100%;
